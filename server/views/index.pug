@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet" href="/css/styles.css")
+		link(rel="preconnect" href="https://fonts.gstatic.com")
+		link(href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet")
+		
+		title="Er Teo's food blog"
+
+	body
+		div(class="welcome")
+			h1 Hi, my name is
+				span(class="red")  Matteo
+			h2 and I 
+				span(class="red")  love
+				span  cooking!
+			button(class="btn-welcome") enter
+				span(class="red") ->
+		div(class="overlay")
+
+		div(class="container__main")
+			div(class="bar-search") Search
+			div(class="gallery gallery_img screen-big")
+				img(src="./public/images/20200520_150927.jpg")
+
+			div(class="gallery screen-medium hidden")
+
+			div(class="gallery screen-mobile hidden")
+
+			div(class="footer overlay hidden hidden")
